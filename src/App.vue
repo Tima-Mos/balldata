@@ -7,7 +7,7 @@ import { RouterLink, RouterView } from 'vue-router'
 <v-container>
   <header>
       <nav style="text-align: center;">
-        <RouterLink to="/today">today</RouterLink>
+        <RouterLink to="/">today</RouterLink>
         <RouterLink to="/comps">comps</RouterLink>
         <RouterLink to="/teams">teams</RouterLink>
       </nav>
