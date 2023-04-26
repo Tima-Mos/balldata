@@ -45,7 +45,7 @@ export default {
                         'X-Auth-Token': XAuthToken,
                     }
                 };
-                const responce = await axios('http://cors-anywhere.herokuapp.com/https://api.football-data.org/v4/teams', OPTIONS);
+                const responce = await axios('http://cors-anywhere.herokuapp.com/https://api.football-data.org/v4/teams?limit=5', OPTIONS);
                 this.teams = responce.data.teams;
                 console.log(responce);
                 console.log(this.teams);
