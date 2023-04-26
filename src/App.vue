@@ -7,9 +7,9 @@ import { RouterLink, RouterView } from 'vue-router'
 <v-container>
   <header>
       <nav style="text-align: center;">
-        <RouterLink to="/">today</RouterLink>
-        <RouterLink to="/comps">comps</RouterLink>
-        <RouterLink to="/teams">teams</RouterLink>
+        <RouterLink to="/">Сегодня</RouterLink>
+        <RouterLink to="/comps">Соревнования</RouterLink>
+        <RouterLink to="/teams">Команды</RouterLink>
       </nav>
   </header>
   <div style="max-width: 1000px; margin: auto">
